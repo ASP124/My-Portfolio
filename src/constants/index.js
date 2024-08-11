@@ -29,22 +29,25 @@ export const PROJECTS = [
     title: " Weather Forecasting Website",
     image: project1,
     description:
-      "A fully functional Weather Forecasting website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional website where users can check the weather in real time using API and IoT methods. It also features machine learning for forecasting weather predictions.",
+    technologies: ["HTML", "CSS", "JavaScript", "IoT", "Machine-Learning"],
+    githubLink:"https://github.com/ASP124/Weather-Forecasting-ML-IoT-Project",
   },
   {
     title: "AnubFurniture Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An e-commerce platform where users can browse products, view new arrivals, and inquire about items through a 'Contact Us' page. Inquiries are promptly addressed.",
+    technologies: ["HTML", "CSS", "Python", "Django", "Sqlite"],
+    githubLink:"https://github.com/ASP124/AnubFurniture",
   },
   {
-    title: "Portfolio Website",
+    title: "EduConnect - A Student Support Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A platform for teachers and students to connect. Teachers can upload study materials, and students can mark their attendance and access resources for aptitude preparation for top companies.",
+    technologies: ["HTML", "CSS", "MERN Stack", "MUI", "MongoDB"],
+    githubLink:"https://github.com/ASP124/EduConnect",
   },
   // {
   //   title: "Blogging Platform",
