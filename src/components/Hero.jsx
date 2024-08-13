@@ -1,5 +1,4 @@
 import profilePic from "../assets/AmarSinghProfile1.jpg"
-import { Link } from 'react-scroll';
 import { motion } from "framer-motion";
 import { HERO_CONTENT } from "../constants";
 
@@ -28,17 +27,16 @@ const hero = () => {
                         <motion.p variants={container(1)}
                             initial="hidden"
                             animate="visible" className="my-2 max-w-xl pt-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
-                        <Link to="projects" smooth={true} duration={500}>
-                            <motion.button
-                                variants={container(1)}
-
-                                initial="hidden"
-                                animate="visible"
-                                className="my-2 px-8 py-3 bg-purple-500 text-white rounded-lg shadow-md hover:bg-purple-600"
-                            >
-                                See My Works
-                            </motion.button>
-                        </Link>
+                        <motion.a
+                            href="/AmarjotSingh_Resume.pdf" // Replace with the actual path to your resume PDF
+                            download="Amarjot_Singh_Resume.pdf" // This will be the name of the downloaded file
+                            variants={container(1)}
+                            initial="hidden"
+                            animate="visible"
+                            className="my-2 px-8 py-3 bg-purple-500 text-white rounded-lg shadow-md hover:bg-purple-600"
+                        >
+                            My Resume
+                        </motion.a>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-5">
