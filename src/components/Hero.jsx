@@ -28,8 +28,8 @@ const hero = () => {
                             initial="hidden"
                             animate="visible" className="my-2 max-w-xl pt-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
                         <motion.a
-                            href="/AmarjotSingh_Resume.pdf" // Replace with the actual path to your resume PDF
-                            download="Amarjot_Singh_Resume.pdf" // This will be the name of the downloaded file
+                            href="/AmarjotSingh_Resume.pdf" 
+                            download="Amarjot_Singh_Resume.pdf" 
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
